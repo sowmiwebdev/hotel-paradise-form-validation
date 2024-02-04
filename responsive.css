@@ -28,16 +28,25 @@
     .heroSection{
         padding: 50px 90px ;
     }
-    
+    /* .firstname input{
+        width: 100px;
+    } */
+    .name{
+        gap: 2rem;
+    }
     .firstname , .lastname{
-        width: 60%;
+        width: 100px;
+    }
+    .address{
+        gap:2.5rem;
     }
     .add1 , .add2{
-        width: 30%;
+        width: 115%;
     }
-    .phone , .email{
-        width: 30%;
+    .phone , .emailaddress{
+        width: 100px;
     }
+    
     .phone-email{
         gap: 1rem;
     }
