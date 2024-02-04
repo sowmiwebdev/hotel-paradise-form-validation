@@ -81,11 +81,11 @@
 }
 .check-in-DateTime{
     display: flex;
-    gap: 3rem;
+    gap: 2rem;
 }
 .check-out-DateTime{
     display: flex;
-    gap: 3rem;
+    gap: 2rem;
 }
 .roompreference{
     display: flex;
