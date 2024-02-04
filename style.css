@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Rubik+Glitch+Pop&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.formContainer{
+    width: 100%;
+    height: 100vh;
+}
+.formSection{
+    width: 39.2%;
+    margin: 50px 450px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.heroSection{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    background-color: white;
+    background-image: url(https://images.pexels.com/photos/1134176/pexels-photo-1134176.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: center center;
+    background-size: cover; 
+    padding: 50px 200px ;
+}
+
+.heading{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Rubik Glitch Pop', system-ui;
+    color:rgb(19, 22, 85);
+}
+.form{
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(53, 169, 208);
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+.formControl{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.formControl input{
+    margin-top: 5px;
+    padding: 3px;
+}
+.formControl small{
+    visibility: hidden;
+    margin-left: 10px;
+}
+.name{
+    width:50%;
+    display: flex;
+    gap:5rem;
+}
+.address{
+    width:50%;
+    display: flex;
+    gap:5rem;
+}
+.otheraddress{
+    display: flex;
+    gap:2rem;
+}
+.code1{
+    width: 100%;
+}
+.phone-email{
+    width:100%;
+    gap:2rem;
+    display: flex;
+}
+.check-DateTime{
+    width:100%;
+    gap:2rem;
+    display: flex;
+}
+.check-in-DateTime{
+    display: flex;
+    gap: 3rem;
+}
+.check-out-DateTime{
+    display: flex;
+    gap: 3rem;
+}
+.roompreference{
+    display: flex;
+    gap: 2rem;
+}
+.no-of-adults{
+    margin-left: 10px;
+}
+.btn1, .btn2{
+    background-color: rgb(30, 34, 120);
+    color:white;
+    border: none;
+    font-size: 16px;
+    border-radius: 6px;
+    padding: 5px 20px;
+}
+.btn{
+    margin-left: 35%;
+}
+.btn2{
+    margin-left: 5px;
+}
+
+
+
+
+.form-Control input:focus{
+    border-color:  blue;
+}
+
+.form-Control.success input{
+    border-color:  green;
+}
+
+.form-Control.error input{
+    border-color:  rgb(184, 26, 26);
+}
+
+.form-Control small{
+    color: rgb(150, 24, 24);
+    visibility: hidden;
+    font-size: 14px;
+}
+
+.form-Control.error small{
+    visibility: visible;
+}
