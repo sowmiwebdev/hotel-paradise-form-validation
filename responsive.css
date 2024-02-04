@@ -30,7 +30,9 @@
     }
     .name{
         width:30%;
-        display: flex;
         gap:1rem;
+    }
+    .firstname , .lastname{
+        width: 30%;
     }
 }
