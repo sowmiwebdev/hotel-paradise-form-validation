@@ -28,4 +28,9 @@
     .heroSection{
         padding: 50px 110px ;
     }
+    .name{
+        width:30%;
+        display: flex;
+        gap:1rem;
+    }
 }
