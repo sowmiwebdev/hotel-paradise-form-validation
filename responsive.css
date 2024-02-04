@@ -28,11 +28,17 @@
     .heroSection{
         padding: 50px 110px ;
     }
-    .name{
-        width:30%;
-        gap:1rem;
-    }
+    
     .firstname , .lastname{
         width: 30%;
+    }
+    .add1 , .add2{
+        width: 30%;
+    }
+    .phone , .email{
+        width: 30%;
+    }
+    .phone-email{
+        gap: 1rem;
     }
 }
