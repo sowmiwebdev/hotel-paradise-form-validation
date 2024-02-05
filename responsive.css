@@ -10,7 +10,7 @@
     }
     .code1{
         width: 165px;
-        margin-bottom: 20px;
+        /* margin-bottom: 20px; */
     }
     .check-DateTime{
         flex-direction: column;
