@@ -41,13 +41,14 @@
         gap:2.5rem;
     }
     .add1 , .add2{
-        width: 115%;
-    }
-    .phone , .emailaddress{
         width: 100px;
     }
+    /* .phone , .emailaddress{
+        width: 120px;
+    } */
     
     .phone-email{
         gap: 1rem;
+        flex-direction: column;
     }
 }
