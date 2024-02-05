@@ -9,7 +9,7 @@
        gap:1rem;
     }
     .code1{
-        width: 38.5%;
+        width: 165px;
         margin-bottom: 20px;
     }
     .check-DateTime{
@@ -28,25 +28,18 @@
     .heroSection{
         padding: 50px 90px ;
     }
-    /* .firstname input{
-        width: 100px;
-    } */
     .name{
         gap: 2rem;
     }
     .firstname , .lastname{
-        width: 100px;
+        width: 130px;
     }
     .address{
-        gap:2.5rem;
+        gap: 2rem;
     }
     .add1 , .add2{
-        width: 100px;
+        width: 130px;
     }
-    /* .phone , .emailaddress{
-        width: 120px;
-    } */
-    
     .phone-email{
         gap: 1rem;
         flex-direction: column;
